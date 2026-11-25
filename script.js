@@ -24,9 +24,6 @@ const resultId = params.get("id");
 // 결과 화면 표시 함수
 function displayResult(result) {
 
-    document.getElementById("completion-rate").textContent =
-        result.completion + "%";
-
     document.getElementById("color-circle").style.backgroundColor =
         result.color;
 
@@ -39,8 +36,6 @@ function displayResult(result) {
 
 // 오류 화면 표시 함수
 function displayError(message) {
-
-    document.getElementById("completion-rate").textContent = "--%";
 
     document.getElementById("color-circle").style.backgroundColor =
         "#E5E5E5";
