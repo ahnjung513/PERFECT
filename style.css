@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #171717;
+    font-family: "Times New Roman", "Batang", serif;
+}
+
+.result-page {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 45px 28px 30px;
+}
+
+/* 완성도 */
+
+.completion {
+    text-align: center;
+    padding: 15px 0 40px;
+}
+
+.project-name {
+    font-size: 13px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+#completion-rate {
+    font-size: 92px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.small-label {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #777777;
+    text-align: center;
+}
+
+.completion .small-label {
+    margin-top: 12px;
+}
+
+/* 구분선 */
+
+hr {
+    border: none;
+    border-top: 1px solid #b5b5b5;
+    width: 100%;
+}
+
+/* 고유 컬러 */
+
+.color-section {
+    padding: 30px 0 35px;
+}
+
+#color-circle {
+    width: 82%;
+    max-width: 330px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background-color: #A8B5A2;
+    margin: 25px auto 35px;
+}
+
+.color-info {
+    width: 82%;
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+#color-name {
+    font-size: 29px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+#color-code {
+    font-size: 16px;
+}
+
+/* 전시 설명 */
+
+.description {
+    padding: 30px 0;
+    word-break: keep-all;
+}
+
+.description h2 {
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.description p {
+    font-size: 15px;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+/* 하단 문구 */
+
+footer {
+    border-top: 1px solid #dddddd;
+    padding-top: 25px;
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: center;
+    color: #777777;
+}
+
+/* 작은 스마트폰 화면 */
+
+@media (max-width: 360px) {
+    .result-page {
+        padding: 35px 20px 25px;
+    }
+
+    #completion-rate {
+        font-size: 76px;
+    }
+
+    .description h2 {
+        font-size: 15px;
+    }
+}
